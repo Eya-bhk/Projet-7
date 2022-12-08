@@ -1,0 +1,233 @@
+.informations {
+    width: 92vw;
+    margin: auto;
+}
+.title-location-tags {
+    /* margin-left: 3vw; */
+    font-family: "Montserrat";
+    color: #ff6060;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.the-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+.location {
+    font-size: 14px;
+    line-height: 142.6%;
+    height: 22px;
+    width: 323px;
+}
+.tags {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+}
+.tag {
+    background-color: #ff6060;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 3px 0px 0px 0px;
+    font-size: 10px;
+    line-height: 142.6%;
+    text-align: center;
+    height: 18px;
+    width: 84px;
+}
+.rate-host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    width: 92vw;
+}
+.grey,
+.orange {
+    width: 15px;
+    height: 15px;
+}
+.host {
+    width: 22%;
+    display: flex;
+    color: #ff6060;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapses {
+    display: flex;
+    flex-direction: column;
+    width: 89vw;
+    justify-content: space-between;
+}
+.collapse {
+    width: 92vw;
+    /* margin-top: 20px; */
+    /* margin-left: 0px !important; */
+    align-items: flex-start !important;
+}
+.toggle {
+    height: auto;
+}
+.host-name {
+    font-family: "Montserrat";
+    font-size: 12px;
+}
+.host-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.equipement {
+    list-style: none;
+}
+.counter {
+    display: none;
+}
+
+@media only screen and (min-width: 576px) {
+    .host-name {
+        font-size: 16px;
+    }
+    .the-title {
+        font-size: 22px;
+    }
+    .location {
+        font-size: 14px;
+    }
+    .tag {
+        font-size: 12px;
+        width: 90px;
+        height: 20px;
+        border-radius: 7px;
+    }
+    .location-host {
+        display: flex;
+        justify-content: space-between;
+        height: 13vh;
+        width: 102%;
+    }
+    .rate {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .host {
+        width: 80%;
+        align-items: center;
+    }
+    .rate-host {
+        flex-direction: column-reverse;
+        width: 18%;
+        height: 11vh;
+    }
+    .grey,
+    .orange {
+        width: 20px;
+        height: 20px;
+    }
+    .title-location-tags {
+        width: 80%;
+    }
+    /* .collapses {
+        flex-direction: row;
+        width: 95vw;
+        margin: auto;
+    } */
+    /* .collapse {
+        width: 48%;
+        margin: 0;
+    } */
+    /* .toggle {
+        height: 23vh;
+    } */
+    .title {
+        width: 92%;
+    }
+    .theToggle {
+        width: 92%;
+    }
+    .counter {
+        display: block;
+        width: fit-content;
+        margin: auto;
+        position: absolute;
+        bottom: 15px;
+        left: 49%;
+        color: white;
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 756px) {
+    .collapses {
+        flex-direction: row;
+        width: 95vw;
+        margin: auto;
+    }
+    .collapse {
+        width: 48%;
+        margin: 0;
+    }
+    /* .toggle {
+        height: 22vh;
+    }*/
+    .toggle {
+        height: 249px;
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .location-host {
+        height: 15vh;
+    }
+
+    .grey,
+    .orange {
+        width: 30px;
+        height: 30px;
+    }
+
+    .host-name {
+        font-size: 18px;
+    }
+    .the-title {
+        font-size: 30px;
+    }
+    .location {
+        font-size: 18px;
+    }
+    .tag {
+        font-size: 14px;
+        width: 115px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    .host-img {
+        width: 64px;
+        height: 64px;
+    }
+    .toggle {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .the-title {
+        font-size: 36px;
+    }
+    .location {
+        font-size: 18px;
+    }
+    .tag {
+        font-size: 14px;
+        width: 115px;
+    }
+    /* .toggle {
+        height: 20vh;
+    } */
+}

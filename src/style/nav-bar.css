@@ -1,0 +1,56 @@
+nav {
+    height: 17px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #ff6060;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: right;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/*tablettes*/
+@media only screen and (min-width: 576px) {
+    nav {
+        height: 26px;
+        width: 300px;
+    }
+    nav a {
+        font-size: 18px;
+        width: 136px;
+    }
+}
+/*desktop*/
+@media only screen and (min-width: 992px) {
+    nav {
+        height: 34px;
+        width: 309px;
+    }
+    nav a {
+        height: 34px;
+        width: 136px;
+        font-size: 24px;
+    }
+}
+/*desktop >1440*/
+@media only screen and (min-width: 1440px) {
+    nav {
+        height: 34px;
+        width: 309px;
+        /* left: 75.08%;
+        top: 25%; */
+    }
+    nav a {
+        /* margin: 10px; */
+        font-size: 24px;
+    }
+}

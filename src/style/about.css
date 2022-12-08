@@ -1,0 +1,11 @@
+.container {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.all-collapses {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

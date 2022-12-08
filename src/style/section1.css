@@ -1,0 +1,57 @@
+.banner {
+    height: 21vh;
+    width: 95%;
+    margin-top: 20px;
+    position: relative;
+}
+.banner img {
+    border-radius: 25px;
+    filter: brightness(70%);
+    z-index: -2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    height: 48px;
+    width: 66%;
+    left: 34px;
+    top: 22px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    color: #ffffff;
+}
+
+/*tablettes*/
+@media only screen and (min-width: 768px) {
+    /* .banner-text {
+    } */
+}
+/* desktop screen */
+@media only screen and (min-width: 1025px) {
+    .banner {
+        height: 19vh !important;
+    }
+    .banner-text {
+        height: 48px;
+        width: 66%;
+        left: 25%;
+        top: 35%;
+        font-size: 35px;
+    }
+}
+/*desktop >1440*/
+@media only screen and (min-width: 1440px) {
+    .banner {
+        border-radius: 25px;
+        height: 25vh !important;
+    }
+    .banner-text {
+        font-size: 48px;
+    }
+}
