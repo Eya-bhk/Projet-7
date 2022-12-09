@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-// import arrowUp from "../../assets/angle-up-solid.svg";
 import "../../style/collapse.css";
 function Collapse(props) {
+    /*initialize the State Hook that 
+ renders a counter. When you click the button, it increments the value: */
     const [open, setOPen] = useState(false);
+    /*initialise the function that will inverse the current state*/
     const toggle = () => {
         setOPen(!open);
     };
