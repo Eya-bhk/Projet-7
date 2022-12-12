@@ -8,16 +8,16 @@ import Header from "../components/desktopComponents/Header";
 import SectionOne from "../components/desktopComponents/Section1";
 import Footer from "../components/desktopComponents/Footer";
 function Home() {
-    const a = 11;
     return (
-        <div className="contenant">
-            <Header />
-            <SectionOne
-                backgroundImg={img}
-                bannerText="Chez vous, partout et ailleurs"
-                bannerHeight={a}
-            />
-            <Gallery />
+        <div>
+            <div className="contenant">
+                <Header />
+                <SectionOne
+                    backgroundImg={img}
+                    bannerText="Chez vous, partout et ailleurs"
+                />
+                <Gallery />
+            </div>{" "}
             <Footer />
         </div>
     );

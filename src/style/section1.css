@@ -1,5 +1,5 @@
 .banner {
-    height: 21vh;
+    height: 111px;
     width: 95%;
     margin-top: 20px;
     position: relative;
@@ -35,14 +35,15 @@
 /* desktop screen */
 @media only screen and (min-width: 1025px) {
     .banner {
-        height: 19vh !important;
+        height: 223px !important;
     }
     .banner-text {
         height: 48px;
+        line-height: 48px;
         width: 66%;
         left: 25%;
         top: 35%;
-        font-size: 35px;
+        font-size: 48px;
     }
 }
 /*desktop >1440*/

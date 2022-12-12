@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .informations {
     width: 92vw;
     margin: auto;
@@ -45,7 +48,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px auto;
+    margin: 15px 0;
     width: 92vw;
 }
 .grey,
@@ -54,7 +57,7 @@
     height: 15px;
 }
 .host {
-    width: 22%;
+    width: 25%;
     display: flex;
     color: #ff6060;
     justify-content: space-between;
@@ -111,7 +114,7 @@
         display: flex;
         justify-content: space-between;
         height: 13vh;
-        width: 102%;
+        width: 100%;
     }
     .rate {
         display: flex;
@@ -119,7 +122,7 @@
         justify-content: space-evenly;
     }
     .host {
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
     .rate-host {
@@ -147,12 +150,12 @@
     /* .toggle {
         height: 23vh;
     } */
-    .title {
+    /* .title {
         width: 92%;
-    }
-    .theToggle {
+    } */
+    /* .theToggle {
         width: 92%;
-    }
+    } */
     .counter {
         display: block;
         width: fit-content;
@@ -167,7 +170,7 @@
 @media only screen and (min-width: 756px) {
     .collapses {
         flex-direction: row;
-        width: 95vw;
+        width: 92vw;
         margin: auto;
     }
     .collapse {
@@ -211,6 +214,11 @@
     .host-img {
         width: 64px;
         height: 64px;
+    }
+    .collapses {
+        flex-direction: row;
+        width: 92vw;
+        margin: auto;
     }
     .toggle {
         font-size: 18px;

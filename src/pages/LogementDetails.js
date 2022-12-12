@@ -46,54 +46,66 @@ function LogementDetails() {
     const tagsArray = theOne.tags;
 
     return (
-        <div className="ficheLogement">
-            <Header />
-            <div className="theBody">
-                <Carroussel pictures={theOne.pictures} />
-                <div className="informations">
-                    <div className="location-host">
-                        <div className="title-location-tags">
-                            <div className="the-title">{theOne.title}</div>
-                            <div className="location">{theOne.location}</div>
-                            <ul className="tags">
-                                {tagsArray.map((tag) => (
-                                    <li className="tag" key={tag}>
-                                        {tag}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="rate-host">
-                            <div className="rate">
-                                {fullStarsArray} {emptyStarsArray}
+        <div>
+            {" "}
+            <div className="contenant">
+                <div className="ficheLogement">
+                    <Header />
+                    <div className="theBody">
+                        <Carroussel pictures={theOne.pictures} />
+                        <div className="informations">
+                            <div className="location-host">
+                                <div className="title-location-tags">
+                                    <div className="the-title">
+                                        {theOne.title}
+                                    </div>
+                                    <div className="location">
+                                        {theOne.location}
+                                    </div>
+                                    <ul className="tags">
+                                        {tagsArray.map((tag) => (
+                                            <li className="tag" key={tag}>
+                                                {tag}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div className="rate-host">
+                                    <div className="rate">
+                                        {fullStarsArray} {emptyStarsArray}
+                                    </div>
+                                    <div className="host">
+                                        <span className="host-name">
+                                            {theOne.host.name}
+                                        </span>
+                                        <img
+                                            src={theOne.host.picture}
+                                            alt="l'hôte"
+                                            className="host-img"
+                                        ></img>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="host">
-                                <span className="host-name">
-                                    {theOne.host.name}
-                                </span>
-                                <img
-                                    src={theOne.host.picture}
-                                    alt="l'hôte"
-                                    className="host-img"
-                                ></img>
+                            <div className="collapses">
+                                <Collapse
+                                    className="collapse"
+                                    title="Description"
+                                    text={theOne.description}
+                                />
+                                <Collapse
+                                    className="collapse"
+                                    title="Equipements"
+                                    text={equipmentsArray.map((equipement) => (
+                                        <li
+                                            className="equipement"
+                                            key={equipement}
+                                        >
+                                            {equipement}
+                                        </li>
+                                    ))}
+                                />
                             </div>
                         </div>
-                    </div>
-                    <div className="collapses">
-                        <Collapse
-                            className="collapse"
-                            title="Description"
-                            text={theOne.description}
-                        />
-                        <Collapse
-                            className="collapse"
-                            title="Equipements"
-                            text={equipmentsArray.map((equipement) => (
-                                <li className="equipement" key={equipement}>
-                                    {equipement}
-                                </li>
-                            ))}
-                        />
                     </div>
                 </div>
             </div>

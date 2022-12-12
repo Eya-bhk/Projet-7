@@ -4,7 +4,7 @@ import "../../style/section1.css";
 
 function SectionOne(props) {
     return (
-        <div className="banner" style={{ height: `${props.bannerHeight}vh` }}>
+        <div className="banner">
             <img src={props.backgroundImg} alt="bannière" />
             <span className="banner-text">{props.bannerText}</span>
         </div>
