@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../components/desktopComponents/Footer";
-import Header from "../components/desktopComponents/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "../style/erreur.css";
 function Erreur() {
     return (

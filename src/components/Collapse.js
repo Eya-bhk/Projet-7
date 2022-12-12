@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../../style/collapse.css";
-import vector from "../../assets/Vector.svg";
+import "../style/collapse.css";
+import vector from "../assets/Vector.svg";
 function Collapse(props) {
     /*initialize the State Hook that 
  renders a counter. When you click the button, it increments the value: */

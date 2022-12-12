@@ -2,12 +2,12 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import fullStar from "../assets/étoile-orange.ico";
 import emptyStar from "../assets/étoile-gris.ico";
-import Header from "../components/desktopComponents/Header";
+import Header from "../components/Header";
 import Data from "../data/locations.json";
 import PageErreur from "../pages/Erreur";
-import Carroussel from "../components/desktopComponents/Carrousel";
-import Collapse from "../components/desktopComponents/Collapse";
-import Footer from "../components/desktopComponents/Footer";
+import Carroussel from "../components/Carrousel";
+import Collapse from "../components/Collapse";
+import Footer from "../components/Footer";
 import "../style/logementDetails.css";
 function LogementDetails() {
     const { id } = useParams();

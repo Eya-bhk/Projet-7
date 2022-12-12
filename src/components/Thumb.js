@@ -1,6 +1,6 @@
 import React from "react";
-import "../../style/home.css";
-import "../../style/gallery.css";
+import "../style/home.css";
+import "../style/gallery.css";
 
 function Thumb(props) {
     return (

@@ -1,6 +1,5 @@
 import React from "react";
-// import img from "../../assets/IMG.png";
-import "../../style/section1.css";
+import "../style/section1.css";
 
 function SectionOne(props) {
     return (

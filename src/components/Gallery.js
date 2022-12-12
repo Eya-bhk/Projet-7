@@ -1,8 +1,8 @@
 import React from "react";
-import "../../style/gallery.css";
+import "../style/gallery.css";
 import Thumb from "./Thumb";
-import "../../style/gallery.css";
-import data from "../../data/locations.json";
+import "../style/gallery.css";
+import data from "../data/locations.json";
 function Gallery() {
     const locations = data.map((member) => (
         <Thumb

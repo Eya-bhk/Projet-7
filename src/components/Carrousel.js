@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import leftArrow from "../../assets/chevronLeft.svg";
-import rightArrow from "../../assets/chevronRight.svg";
-import "../../style/carrousel.css";
+import leftArrow from "../assets/chevronLeft.svg";
+import rightArrow from "../assets/chevronRight.svg";
+import "../style/carrousel.css";
 function Carroussel({ pictures }) {
     /*initialize the State Hook that 
  renders a counter. When you click the button, it increments the value: */

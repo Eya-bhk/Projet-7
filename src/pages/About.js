@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/desktopComponents/Header";
-import SectionOne from "../components/desktopComponents/Section1";
-import Collapse from "../components/desktopComponents/Collapse";
-import Footer from "../components/desktopComponents/Footer";
+import Header from "../components/Header";
+import SectionOne from "../components/Section1";
+import Collapse from "../components/Collapse";
+import Footer from "../components/Footer";
 import img from "../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
 import "../style/about.css";
 function About() {
