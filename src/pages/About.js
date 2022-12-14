@@ -1,8 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
 import SectionOne from "../components/Section1";
 import Collapse from "../components/Collapse";
-import Footer from "../components/Footer";
 import img from "../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
 import "../style/about.css";
 function About() {
@@ -11,7 +9,6 @@ function About() {
     return (
         <div>
             <div className="contenant">
-                <Header />
                 <SectionOne backgroundImg={img} />
                 <div className="all-collapses">
                     <Collapse
@@ -40,7 +37,6 @@ function About() {
                     />
                 </div>{" "}
             </div>
-            <Footer />
         </div>
     );
 }

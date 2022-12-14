@@ -8,9 +8,9 @@ function Thumb(props) {
             <a href={`/logement/${props.id}`} key={props.id}>
                 <div className="rectangle-2">
                     <img alt="" src={props.cover}></img>
-                    <span className="titre-de-la-location">
+                    <div className="titre-de-la-location">
                         <h2>{props.title}</h2>
-                    </span>
+                    </div>
                 </div>
             </a>
         </div>

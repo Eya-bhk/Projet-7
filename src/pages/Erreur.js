@@ -1,12 +1,9 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../style/erreur.css";
 function Erreur() {
     return (
         <div>
             <div className="contenant">
-                <Header />
                 <div className="main">
                     <div className="error">404</div>
                     <div className="text-1">
@@ -17,7 +14,6 @@ function Erreur() {
                     </a>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

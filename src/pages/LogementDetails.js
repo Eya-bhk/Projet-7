@@ -2,12 +2,10 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import fullStar from "../assets/étoile-orange.ico";
 import emptyStar from "../assets/étoile-gris.ico";
-import Header from "../components/Header";
 import Data from "../data/locations.json";
 import PageErreur from "../pages/Erreur";
 import Carroussel from "../components/Carrousel";
 import Collapse from "../components/Collapse";
-import Footer from "../components/Footer";
 import "../style/logementDetails.css";
 function LogementDetails() {
     const { id } = useParams();
@@ -50,7 +48,6 @@ function LogementDetails() {
             {" "}
             <div className="contenant">
                 <div className="ficheLogement">
-                    <Header />
                     <div className="theBody">
                         <Carroussel pictures={theOne.pictures} />
                         <div className="informations">
@@ -109,7 +106,6 @@ function LogementDetails() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }
